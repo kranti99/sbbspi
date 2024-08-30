@@ -28,13 +28,13 @@ export default function HeaderComponent() {
       <div className="container mx-auto justify-between items-center py-2 hidden lg:flex">
         <div className="flex items-center space-x-4">
           <span className="text-white hover:text-secondary-100">
-            <a href="mailto:sayiadhussian786@gmail.com">
-              <FontAwesomeIcon icon={faEnvelope} /> sayiadhussian786@gmail.com
+            <a href="mailto:sbbspiathala@gmail.com">
+              <FontAwesomeIcon icon={faEnvelope} /> sbbspiathala@gmail.com
             </a>
           </span>
           <span className="text-white hover:text-secondary-100">
             <a href="tel:9779867964282">
-              <FontAwesomeIcon icon={faPhone} />{language === 'ne' ? '९७७-९८६७९६४२८२' : '977-9867964282'}
+              <FontAwesomeIcon icon={faPhone} />{language === 'ne' ? '९७७-९८५८४८८४४५' : '977-9858488445'}
             </a>
           </span>
         </div>
@@ -63,7 +63,7 @@ export default function HeaderComponent() {
           <div className="flex items-center space-x-4">
             <Link href='/'><Image src="/logo.png" alt="CTEVT Logo" width={isSticky ? 50 : 60} height={isSticky ? 50 : 60} /></Link>
             <Link href='/'><h1 className="text-lg font-bold mb-0">
-              {language === 'ne' ? 'भीमदत्त बहुप्राविधिक शिक्षालय ' : 'Bhimdutta Polytechnic Institute'}
+              {language === 'ne' ? 'शहिद बृष ब.सिंह बहुप्राविधिक शिक्षालय अठाला, बझाङ' : 'Sahid Bris Bahadur Singh Polytechnic Institute'}
             </h1></Link>
           </div>
           <nav className="hidden lg:flex items-center space-x-8">
@@ -106,7 +106,7 @@ export default function HeaderComponent() {
                 </svg>
               </button>
               <div className="absolute hidden group-hover:block bg-white text-black mt-0 rounded-lg shadow-lg py-2 z-10 w-48">
-                <Link href="/gallery/images" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 hover:bg-gray-200">
+                <Link href="/message-from-principal" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 hover:bg-gray-200">
                   {language === 'ne' ? 'प्रधानाध्यापकको सन्देश' : 'Message From Principle'}
                 </Link>
                 <Link href="/team" onClick={() => setIsMenuOpen(false)} className="block px-4 py-2 hover:bg-gray-200">

@@ -19,8 +19,8 @@ const philosopher = Philosopher({
 });
 
 export const metadata: Metadata = {
-  title: "Bhimdutta Polytechnic Institute",
-  description: "Bhimdutta Polytechnic Institute (BDPI) is Forty Eighth constituent institute of the Council for Technical Education and Vocational Training (CTEVT).",
+  title: "Martyr Bris Bahadur Singh Polytechnic Institute",
+  description: "Martyr Bris Bahadur Singh Polytechnic Institute is a public technical academic institution located in Aathala, Bajhang district of Nepal.",
   icons: {
     icon: '/logo.png' // Make sure to provide the correct path to the icon
   }

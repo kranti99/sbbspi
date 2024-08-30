@@ -19,10 +19,10 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-4 pb-2">
               <Image src="/logo.png" alt="Logo" width={80} height={80} className="mb-4" />
-              <h1 className="text-lg font-bold">{language === 'ne' ? 'भीमदत्त बहुप्राविधिक शिक्षालय' : 'Bhimdutta Polytechnic Institute'} </h1>
+              <h1 className="text-lg font-bold">{language === 'ne' ? 'शहिद वृष बहादुर सिंह बहुप्राविधिक शिक्षालय अठाला ( नौरा ), बझांग' : 'Shahid Vrish Bahadur Singh Polytechnic Education Athala (Naura), Bajhang'} </h1>
             </div>
             <p className="mb-4">
-            {language === 'ne' ? 'भीमदत्त बहुप्राविधिक शिक्षालय (बिडिपिआई) प्राविधिक शिक्षा तथा व्यावसायिक तालीम परिषद् (सीटीईभीटी) को ४८ औँ आङ्गिक संस्था हो ।' : 'Bhimdutta Polytechnic Institute (BDPI) is Forty Eighth constituent institute of the Council for Technical Education and Vocational Training (CTEVT).'}
+            {language === 'ne' ? 'नेपालको बझाङ जिल्लाको आठलामा रहेको शहीद ब्रिस बहादुर सिंह पोलिटेक्निक इन्स्टिच्युटमा सम्भावनाको संसार पत्ता लगाउनुहोस्। हामी कृषि र ईन्जिनियरिङ् मा शीर्ष-निशान शिक्षा प्रदान गर्न प्रतिबद्ध सार्वजनिक प्राविधिक शैक्षिक संस्था हौं।' : 'Discover a world of possibilities at Martyr Bris Bahadur Singh Polytechnic Institute, located in Aathala, Bajhang district of Nepal. We are a public technical academic institution committed to providing top-notch education in Agriculture and Engineering.'}
            
 
             </p>
@@ -79,11 +79,11 @@ export default function Footer() {
             </Link>
           </div>
           <div>
-          <Link href="#">
+          <Link href="mailto:sbbspiathala@gmail.com">
             <div className="bg-primary-600 text-white py-4 px-6 rounded  max-w-80 hover:bg-primary-700 flex items-center">
               <FontAwesomeIcon icon={faEnvelope} className="text-3xl mr-4" />
               <div>
-                <p className="text-lg">Email Address: <br/>sayiadhussian786@gmail.com</p>
+                <p className="text-lg">Email Address: <br/>sbbspiathala@gmail.com</p>
               </div>
             </div>
             </Link>
@@ -93,8 +93,8 @@ export default function Footer() {
             <div className="bg-primary-600 text-white py-4 px-6 rounded max-w-80 hover:bg-primary-700 flex items-center">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="text-3xl mr-4" />
               <div>
-                <p className="text-lg">{language === 'ne' ? 'पाटन-०६, पाटन' : 'Patan-06, Patan'} <br/>
-                {language === 'ne' ? 'बैतडी':'Baitadi'}<br/>
+                <p className="text-lg">{language === 'ne' ? 'अठाला' : 'Athala'} <br/>
+                {language === 'ne' ? 'बझाङ':'Bajhang'}<br/>
                 </p>
               </div>
             </div>
@@ -106,7 +106,7 @@ export default function Footer() {
       {/* Footer Bottom */}
       <div className="bg-custom-darker py-4 mt-8">
         <div className="max-w-screen-xl mx-auto text-center md:text-center md:items-center">
-          <p className='mb-0'>&copy; {language === 'ne' ? 'भीमदत्त बहुप्राविधिक शिक्षालय २०२४, सर्वाधिकार सुरक्षित' : 'Bhimdutta Polytechnic Institute 2024, All Rights Reserved.'}</p>
+          <p className='mb-0'>&copy; {language === 'ne' ? 'शहिद वृष बहादुर सिंह बहुप्राविधिक शिक्षालय' : 'Shahid Vrish Bahadur Singh Polytechnic Institute 2024, All Rights Reserved.'}</p>
         </div>
       </div>
       <ScrollToTop />
