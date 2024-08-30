@@ -1,0 +1,264 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Base Styles */
+body {
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+/* Lists */
+ul, ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  list-style: auto;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-left: 5px solid #ccc;
+  font-style: italic;
+  color: #555;
+}
+
+/* Code */
+code {
+  background-color: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+
+/* slider css */
+.homeSlider{
+  paddinb-bottom:30px !important;
+}
+.homeSlider .slick-dots{
+  bottom:-15px !important;
+  left:45%;
+}
+.homeSlider .slick-dots li{
+  margin:0 5px !important;
+}
+.homeSlider .slick-dots li button:before{
+  opacity: 0.5;
+  color: #166534;
+  font-size:20px;
+}
+.homeSlider .slick-dots li.slick-active button:before{
+  color: #166534;
+  opacity: 1;
+}
+.homeSlider .slick-dots ul{
+  background:#fff;
+  max-width: 100px;
+  padding: 5px;
+  padding-top: 8px;
+  border-radius: 10px;
+}
+
+
+/* page title  */
+.pageHeader {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  background-size: cover;
+  margin-bottom:30px
+}
+
+.pageHeader h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.pageHeader nav {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.pageHeader nav a {
+  color: #00b300;
+  text-decoration: none;
+}
+
+.pageHeader nav span {
+  color: #cccccc;
+}
+
+
+/* team hover */
+
+.team-member .relative {
+  border: 4px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.team-member:hover .relative {
+  border-color: #ffcc00; /* yellow border on hover */
+}
+
+.team-member .info {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  background: white;
+  border-top: 4px solid #ffcc00;
+  transform: translateY(100%);
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.team-member:hover .info {
+  transform: translateY(50%);
+  border-color: #ffcc00; /* yellow border on hover */
+}
+
+.footer-links{
+  list-style:none
+}
+
+
+/* newssection */
+.NewsSection {
+  position: relative;
+}
+.NewsSection:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 52%;
+  background-color: #000000;
+  opacity: 0.7;
+  z-index: -1;
+}
+.NewsSection .fixed-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 52%;
+  background-attachment: scroll;
+  background-size: cover;
+  z-index: -2;
+}
+.newsSectionItem {
+  position: relative;
+}
+.newsSectionItem:before {
+  content: "";
+  position: absolute;
+  top: 0.9375rem;
+  left: 0.9375rem;
+  right: 0.9375rem;
+  bottom: 0;
+  border: 6px solid #eab3084f;
+  z-index: 100;
+}
+.newsSectionItem:hover:before{
+  border: 6px solid #eab308;
+}
