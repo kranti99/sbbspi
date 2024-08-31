@@ -41,6 +41,10 @@ const Popup: React.FC<PopupProps> = ({ onClose }) => {
     }
   };
 
+  if (popups.length === 0) {
+    return null; // Do not render the popup if there is no content
+  }
+
   return (
     <div
       className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"

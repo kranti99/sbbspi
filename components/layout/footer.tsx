@@ -69,11 +69,11 @@ export default function Footer() {
         {/* Contact Info */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 text-center md:text-left">
           <div>
-            <Link href="tel:9779867964282">
+            <Link href="tel:9779858488445">
             <div className="bg-primary-600 text-white py-4 px-6 rounded max-w-80 hover:bg-primary-700 flex items-center">
               <FontAwesomeIcon icon={faPhone} className="text-3xl mr-4" />
               <div>
-                <p className="text-lg">Phone No: <br/>977-9867964282</p>
+                <p className="text-lg">Phone No: <br/>977-9858488445</p>
               </div>
             </div>
             </Link>

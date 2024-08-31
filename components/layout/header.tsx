@@ -24,7 +24,7 @@ export default function HeaderComponent() {
   }, []);
 
   return (
-    <header className={`bg-green-700 text-white`}>
+    <header className={`bg-primary-700 text-white`}>
       <div className="container mx-auto justify-between items-center py-2 hidden lg:flex">
         <div className="flex items-center space-x-4">
           <span className="text-white hover:text-secondary-100">
@@ -71,7 +71,7 @@ export default function HeaderComponent() {
               {language === 'ne' ? 'गृह' : 'Home'}
             </Link>
             <Link href="/about" className="hover:text-gray-400">
-              {language === 'ne' ? 'हाम्रोबारे' : 'About Us'}
+              {language === 'ne' ? 'हाम्रोबारे' : 'About'}
             </Link>
             <Link href="/news" className="hover:text-gray-400">
               {language === 'ne' ? 'समाचार' : 'News/Events'}

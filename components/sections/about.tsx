@@ -71,7 +71,7 @@ const AboutUsSection: React.FC = () => {
           
           <div className="relative">
             <Image
-              src="/img/bhimdatta.png"
+              src="/img/sbb.jpg"
               alt="Image 2"
               width={500}
               height={500}
@@ -79,7 +79,7 @@ const AboutUsSection: React.FC = () => {
             />
             <div className="absolute inset-0 flex justify-center items-center">
               <a 
-                href="https://www.youtube.com/embed/R6hLWFYB-kc?si=G6gquwI59onF_Wb9"
+                href="https://sbbspi.vercel.app/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff4jtbuzh%2Fproduction%2F5b4be318fee5019a8c66c96b505ee1321b93746d-680x453.jpg&w=640&q=75"
                 data-fancybox
                 className="bg-white text-purple-600 p-3 rounded-full shadow-lg"
               >
@@ -107,7 +107,7 @@ const AboutUsSection: React.FC = () => {
               {language === 'ne' ? 'आजीवन शिक्षाको प्रवेशद्वार ' : 'Gateway to Lifelong Learning'}
             </h2>
             <h1 className="text-4xl text-black font-bold mb-4">
-              {language === 'ne' ? 'भीमदत्त बहुप्राविधिक शिक्षालय ' : 'Bhimdutta Polytechnic Institute'}
+              {language === 'ne' ? 'शहिद बृष ब.सिंह बहुप्राविधिक शिक्षालय ' : 'Sahid Bris Bahadur Singh Polytechnic Institute'}
             </h1>
             <p className="text-gray-700 mb-8">
               {description.slice(0, 400)}...

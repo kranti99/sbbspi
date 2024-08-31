@@ -11,7 +11,7 @@ import Popup from '@/components/elements/popop';
 import MessageFromPrincipal from '@/components/sections/messageFromPrincipal';
 
 export default function Home() {
-  const [isPopupVisible, setIsPopupVisible] = useState(true);
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
 
   const handlePopupClose = () => {
     setIsPopupVisible(false);
