@@ -58,7 +58,7 @@ export default function HeaderComponent() {
           </a>
         </div>
       </div>
-      <div className={`transition-all duration-300 bg-primary-800 ${isSticky ? 'shadow-lg sticky top-0 z-50 py-2' : 'py-4'}`} style={{ top: isSticky ? '0' : '', position: isSticky ? 'fixed' : 'relative', width: '100%', left: '0' }}>
+      <div className={`transition-all duration-300 bg-primary-800 px-4 ${isSticky ? 'shadow-lg sticky top-0 z-50 py-2' : 'py-4'}`} style={{ top: isSticky ? '0' : '', position: isSticky ? 'fixed' : 'relative', width: '100%', left: '0' }}>
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
             <Link href='/'><Image src="/logo.png" alt="CTEVT Logo" width={isSticky ? 50 : 60} height={isSticky ? 50 : 60} /></Link>
@@ -120,7 +120,7 @@ export default function HeaderComponent() {
           </button>
         </div>
         {isMenuOpen && (
-          <nav className="lg:hidden bg-green-800 py-3 w-full">
+          <nav className="lg:hidden bg-primary-800 py-3 w-full">
             <div className="container mx-auto flex flex-col items-start px-4 space-y-2">
               <Link href="/" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-400">Home</Link>
               <Link href="/about" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-400">About</Link>
