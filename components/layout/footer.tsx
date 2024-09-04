@@ -27,11 +27,11 @@ export default function Footer() {
 
             </p>
             <div className="flex space-x-4">
-              <Link href="#"><FontAwesomeIcon icon={faInstagram} className="text-white hover:text-gray-400" /></Link>
+              <Link href="https://www.facebook.com/profile.php?id=100090047912855"><FontAwesomeIcon icon={faFacebook} className="text-white hover:text-gray-400" /></Link>
+              {/* <Link href="#"><FontAwesomeIcon icon={faInstagram} className="text-white hover:text-gray-400" /></Link>
               <Link href="#"><FontAwesomeIcon icon={faTwitter} className="text-white hover:text-gray-400" /></Link>
               <Link href="#"><FontAwesomeIcon icon={faLinkedin} className="text-white hover:text-gray-400" /></Link>
-              <Link href="#"><FontAwesomeIcon icon={faFacebook} className="text-white hover:text-gray-400" /></Link>
-              <Link href="#"><FontAwesomeIcon icon={faYoutube} className="text-white hover:text-gray-400" /></Link>
+              <Link href="#"><FontAwesomeIcon icon={faYoutube} className="text-white hover:text-gray-400" /></Link> */}
             </div>
           </div>
 
@@ -58,9 +58,9 @@ export default function Footer() {
           {/* Facebook Page Widget */}
           <div>
             <h3 className="font-bold text-xl mb-4"> {language === 'ne' ? 'फेसबुक पेज' : 'Facebook Page'}</h3>
-            <div className="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-              <blockquote cite="https://www.facebook.com/facebook" className="fb-xfbml-parse-ignore">
-                <Link href="https://www.facebook.com/facebook">Facebook</Link>
+            <div className="fb-page" data-href="https://www.facebook.com/profile.php?id=100090047912855" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+              <blockquote cite="https://www.facebook.com/profile.php?id=100090047912855" className="fb-xfbml-parse-ignore">
+                <Link href="https://www.facebook.com/profile.php?id=100090047912855">Facebook</Link>
               </blockquote>
             </div>
           </div>

@@ -64,13 +64,13 @@ const ContactPage = () => {
                 loading="lazy"
               ></iframe>
             </div>
-            <h3 className="text-lg font-bold mb-4 mt-8">
+            {/* <h3 className="text-lg font-bold mb-4 mt-8">
               {language === 'ne'
                 ? 'हामीलाई सामाजिक सञ्जालमा फलो गर्नुहोस्'
                 : 'Follow Us On Social Media'}
             </h3>
             <div className="flex justify-center space-x-4">
-              <a href="#" className="text-blue-600">
+              <a href="https://www.facebook.com/profile.php?id=100090047912855" className="text-blue-600">
                 <FontAwesomeIcon icon={faFacebookF} size="2x" />
               </a>
               <a href="#" className="text-blue-400">
@@ -82,7 +82,7 @@ const ContactPage = () => {
               <a href="#" className="text-blue-800">
                 <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
